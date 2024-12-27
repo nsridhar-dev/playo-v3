@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Playo</title>
+</head>
+<body>
+    <header>
+        <center>
+            <img src="Images/PlayoLogo.png" alt="Playo" height="60px" width="105px">
+        </center>
+        <a href="index.html">Home</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="about.html">About</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="contactUs.html">Contact Us</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="sports.html">Popular Sports</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="venuedetails.html">Venue</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="#">Book</a>
+    </header>
+    <b><hr></b>
+
+    <br>
+    <form name="booking">
+        <table cellspacing="20px">
+            <tr>
+                <td>
+                    <label for="sports">Sports</label>
+                </td>
+                <td>
+                    <select name="sports" id="sports">
+                        <option value="sports">Select Sport</option>
+                        <option value="sports">Cricket</option>
+                        <option value="sports">Football</option>
+                        <option value="sports">Table Tennis</option>
+                        <option value="sports">Badminton</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="date">Date</label>
+                </td>
+                <td>
+                    <input type="date" name="date" id="date">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="time">Start Time</label>
+                </td>
+                <td>
+                    <input type="time" name="time" id="time">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="duration">Duration</label>
+                </td>
+                <td>
+                    <select name="duration" id="duration">
+                        <option value="duration">Select duration</option>
+                        <option value="duration">0 hr : 30 mins</option>
+                        <option value="duration">1 hr : 0 mina</option>
+                        <option value="duration">1 hr : 30 mins </option>
+                        <option value="duration">2 hr : 0 mins</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="court">Court</label>
+                </td>
+                <td>
+                    <select name="court" id="court">
+                        <option value="court">Select Court</option>
+                        <option value="court">Court 1</option>
+                        <option value="court">Court 2</option>
+                        <option value="court">Court 3</option>
+                        <option value="court">Court 4</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="Add to Cart">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr>
+    <footer>
+        <center>
+            <h3>@2024 360 Digrii Pvt Ltd.</h3>
+            <h4> All Rights Reserved.</h4>
+        
+        </center>
+    </footer>
+</body>
+</html>
